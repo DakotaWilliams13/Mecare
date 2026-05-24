@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Mecare">
+    <meta property="og:description" content="Mecare - медицинская организация">
+    <meta property="og:image" content="https://dakotawilliams13.github.io/Mecare.ru/img/logo0.png">
+
     <title>Mecare</title>
     <link rel="stylesheet" href="css/style.css">
 
@@ -17,7 +21,7 @@
 <body>
     <header>
         <section class="header-menu">
-            <div class="section_wrapper container">
+            <div class="section_wrapper">
                 <div class="header-menu_logo">
                     <a href="#">
                         <img src="img/main-logo.png" alt="Логотип">
@@ -41,7 +45,7 @@
                     <!-- <img src="img/main-man.png" alt=""> -->
                     <button type="button" class="big-banner__button">Записаться на прием</button>
                 </div>
-                <div class="mini-banners">
+                <!-- <div class="mini-banners"> -->
                     <div class="mini-banner banner1">
                         <h3 class="mini-banner__title">Квалифицированные врачи</h3>
                         <p class="mini-banner__text">Запишитесь на консультацию к лучшим врачам, 
@@ -109,9 +113,11 @@
                 </div>
                 <div class="pricing_blocks container">
                     <div class="pricing_block1">
-                        <h3 class="pricing_block__title">Базовый пакет</h3>
-                        <p class="pricing_block__text">Жизненно важные инструменты для оптимизации 
-                            управления здравоохранением</p>
+                        <div class="container_text">
+                            <h3 class="pricing_block__title">Базовый пакет</h3>
+                            <p class="pricing_block__text">Жизненно важные инструменты для оптимизации 
+                                управления здравоохранением</p>
+                        </div>
                         <div class="price_item">
                             <p class="price_item__price">&#36;25</p>
                             <p class="price_item__period">/месяц</p>
@@ -122,12 +128,14 @@
                             <li class="pricing_block__item">Комплексное управление здравоохранением</li>
                             <li class="pricing_block__item">Экономически эффективное решение</li>
                         </ul>
-                        <button class="pricing_block__btn">Выберите свой тарифный план</button>
+                        <button class="pricing_block__btn btn1">Выберите свой тарифный план</button>
                     </div>
 
                     <div class="pricing_block2">
-                        <h3 class="pricing_block__title">Профессиональный пакет</h3>
-                        <p class="pricing_block__text">Передовые инструменты для легкого управления здравоохранением</p>
+                        <div class="container_text">
+                            <h3 class="pricing_block__title">Профессиональный пакет</h3>
+                            <p class="pricing_block__text">Передовые инструменты для легкого управления здравоохранением</p>
+                        </div>
                         <div class="price_item">
                             <p class="price_item__price">&#36;99</p>
                             <p class="price_item__period">/месяц</p>
@@ -138,7 +146,7 @@
                             <li class="pricing_block__item">Экономически эффективные решения</li>
                             <li class="pricing_block__item">Масштабируемость и индивидуализация</li>
                         </ul>
-                        <button class="pricing_block__btn">Выберите свой тарифный план</button>
+                        <button class="pricing_block__btn btn2">Выберите свой тарифный план</button>
                     </div>
                 </div>
             </div>
@@ -153,11 +161,11 @@
                         <button class="info_block1__btn">Ознакомиться с тематическим исследованием</button>
                     </div>
                     <div class="info_block2">
-                        <p class="info_block2__text">Инновационные инструменты, повышающие эффективность 
+                        <p class="info_block__text">Инновационные инструменты, повышающие эффективность 
                             здравоохранения и оказывающие медицинскую помощь.</p>
                         <h3 class="info_block2__title">Электронное здравоохранение</h3>
-                        <div class="info_block2__icon">
-                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div class="info_block__icon">
+                            <a href=""><svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <foreignObject x="-40" y="-40" width="124" height="124"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(20px);clip-path:url(#bgblur_0_2_3906_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="40">
                                 <rect width="44" height="44" rx="22" fill="url(#paint0_linear_2_3906)"/>
                                 <path d="M18.9515 17.0179L27.0007 17L26.9837 25.0501" stroke="#181B39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -170,14 +178,14 @@
                                 <stop offset="1" stop-color="white" stop-opacity="0.2"/>
                                 </linearGradient>
                                 </defs>
-                            </svg>
+                            </svg></a>
                         </div>
                     </div>
                     <div class="info_block3">
-                        <p class="info_block3__text">Оптимизированные решения для виртуальных консультаций и управления.</p>
+                        <p class="info_block__text">Оптимизированные решения для виртуальных консультаций и управления.</p>
                         <h3 class="info_block3__title">Услуги телемедицины</h3>
-                        <div class="info_block3__icon">
-                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div class="info_block__icon">
+                            <a href="#"><svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <foreignObject x="-40" y="-40" width="124" height="124"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(20px);clip-path:url(#bgblur_0_2_3914_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="40">
                                 <rect width="44" height="44" rx="22" fill="url(#paint0_linear_2_3914)"/>
                                 <path d="M18.9515 17.0179L27.0007 17L26.9837 25.0501" stroke="#181B39" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -190,11 +198,11 @@
                                 <stop offset="1" stop-color="white" stop-opacity="0.2"/>
                                 </linearGradient>
                                 </defs>
-                            </svg>
+                            </svg></a>
                         </div>
                     </div>
                     <div class="info_block4">
-                        <p class="info_block4__text">Оптимизированные, точные и безопасные решения для 
+                        <p class="info_block__text">Оптимизированные, точные и безопасные решения для 
                             управления медицинскими платежами. Мы оптимизируем 
                             финансовые операции, сводим к минимуму ошибки и 
                             обеспечиваем своевременные платежи как для поставщиков 
@@ -202,8 +210,8 @@
                             финансовые операции, сводим к минимуму ошибки и 
                             обеспечиваем своевременную оплату.</p>
                         <h3 class="info_block4__title">Выставление счетов и фактур</h3>
-                        <div class="info_block4__icon">
-                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div class="info_block__icon">
+                            <a href="#"><svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <foreignObject x="-40" y="-40" width="124" height="124"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(20px);clip-path:url(#bgblur_0_2_3949_clip_path);height:100%;width:100%"></div></foreignObject><g data-figma-bg-blur-radius="40">
                                 <rect width="44" height="44" rx="22" fill="url(#paint0_linear_2_3949)"/>
                                 <path d="M18.9514 17.0179L27.0005 17L26.9835 25.0501" stroke="#E8ECED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -216,7 +224,7 @@
                                 <stop offset="1" stop-color="white" stop-opacity="0.2"/>
                                 </linearGradient>
                                 </defs>
-                            </svg>
+                            </svg></a>
                         </div>
                     </div>
                 </div>
@@ -227,14 +235,16 @@
             <div class="form_wrapper container">
                 <h1 class="form_title">Оставить отзыв</h1>
                 <form action="" class="form_input">
-                    <div class="form_input-fields--row">
-                        <input class="form_input-field name" type="text" placeholder="Имя">
-                        <input class="form_input-field lastname" type="text" placeholder="Фамилия"><br>
+                    <div class="container_form-content">
+                        <!-- <div class="form_input-fields--row"> -->
+                            <input class="form_input-field name" type="text" placeholder="Имя">
+                            <input class="form_input-field lastname" type="text" placeholder="Фамилия">
+                        <!-- </div> -->
+                        <input class="form_input-field email " type="email" placeholder="Email"><br>
+                        <!-- <input class="form_input-field textarea" type="textarea" placeholder="Введите сообщение" ><br>  -->
+                        <textarea class="form_input-field textarea" name="textarea" id="" placeholder="Введите сообщение" required ></textarea><br>
+                        <button class="form_button" type="submit">Отправить</button>
                     </div>
-                    <input class="form_input-field email " type="email" placeholder="email"><br>
-                    <!-- <input class="form_input-field textarea" type="textarea" placeholder="Введите сообщение" ><br>  -->
-                    <textarea class="form_input-field textarea" name="textarea" id="" placeholder="Введите сообщение" required ></textarea><br>
-                    <button class="form_button" type="submit">Отправить</button>
                 </form>
             </div>
         </section>
@@ -256,28 +266,28 @@
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4.43113 1.07198C4.90337 1.16958 5.27945 1.48686 5.51311 1.90606L6.25746 3.24143C6.53163 3.73326 6.76236 4.14717 6.91303 4.50698C7.07287 4.88866 7.1678 5.26504 7.12441 5.68117C7.08101 6.09731 6.91047 6.44601 6.67532 6.7865C6.45365 7.10748 6.14248 7.46487 5.77273 7.88956L4.67856 9.14638C4.48249 9.3716 4.38445 9.48421 4.37549 9.62496C4.36653 9.76571 4.44688 9.88593 4.60758 10.1264C5.97724 12.1756 7.82319 14.0222 9.8741 15.393C10.1145 15.5537 10.2348 15.6341 10.3755 15.6251C10.5163 15.6162 10.6289 15.5181 10.8541 15.322L12.111 14.2278C12.5357 13.8581 12.8931 13.5469 13.214 13.3252C13.5545 13.0901 13.9032 12.9195 14.3194 12.8761C14.7355 12.8327 15.1119 12.9277 15.4936 13.0875C15.8533 13.2382 16.2672 13.4689 16.759 13.743L18.0945 14.4874C18.5137 14.7211 18.831 15.0972 18.9286 15.5694C19.0272 16.0466 18.8817 16.5262 18.5604 16.9204C17.3947 18.3507 15.5269 19.2614 13.5676 18.8661C12.3632 18.6232 11.1749 18.2184 9.73763 17.3942C6.84983 15.738 4.2606 13.1474 2.60638 10.2629C1.78211 8.82566 1.37735 7.63734 1.1344 6.43295C0.739148 4.4736 1.64984 2.60587 3.08015 1.44012C3.47434 1.11883 3.95397 0.973354 4.43113 1.07198Z" fill="#525B5A"/>
                         </svg>
-                        <span>(406) 555-0120</span>
+                        <p><a href="tel:(406) 555-0120">(406) 555-0120</a></p>
                     </li>
                     <li class="footer_item item2">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.1159 2.5C15.2334 2.5 16.3084 2.94167 17.0992 3.73417C17.8909 4.525 18.3334 5.59167 18.3334 6.70833V13.2917C18.3334 15.6167 16.4417 17.5 14.1159 17.5H5.88341C3.55758 17.5 1.66675 15.6167 1.66675 13.2917V6.70833C1.66675 4.38333 3.54925 2.5 5.88341 2.5H14.1159ZM15.0584 6.83333C14.8834 6.82417 14.7167 6.88333 14.5909 7L10.8334 10C10.3501 10.4008 9.65758 10.4008 9.16675 10L5.41675 7C5.15758 6.80833 4.79925 6.83333 4.58341 7.05833C4.35841 7.28333 4.33341 7.64167 4.52425 7.89167L4.63341 8L8.42508 10.9583C8.89175 11.325 9.45758 11.525 10.0501 11.525C10.6409 11.525 11.2167 11.325 11.6826 10.9583L15.4417 7.95L15.5084 7.88333C15.7076 7.64167 15.7076 7.29167 15.4992 7.05C15.3834 6.92583 15.2242 6.85 15.0584 6.83333Z" fill="#525B5A"/>
                         </svg>
-                        <span>hipixem@gmail.com</span>
+                        <p><a href="mail:hipixem@gmail.com">hipixem@gmail.com</a></p>
                     </li>
                     <li class="footer_item item3">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.99462 1.6665C13.8802 1.6665 17.0834 4.76475 17.0834 8.59797C17.0834 10.5296 16.3809 12.3229 15.2247 13.8428C13.9491 15.5194 12.3769 16.9802 10.6072 18.1269C10.2022 18.3919 9.83664 18.4118 9.39212 18.1269C7.61236 16.9802 6.04015 15.5194 4.7755 13.8428C3.6184 12.3229 2.91675 10.5296 2.91675 8.59797C2.91675 4.76475 6.11998 1.6665 9.99462 1.6665ZM9.99462 6.48053C8.7098 6.48053 7.66194 7.53967 7.66194 8.8138C7.66194 10.0979 8.7098 11.1079 9.99462 11.1079C11.2803 11.1079 12.3382 10.0979 12.3382 8.8138C12.3382 7.53967 11.2803 6.48053 9.99462 6.48053Z" fill="#525B5A"/>
                         </svg>
-                        <span>3517 W. Gray St. Utica,<br>Pennsylvania 57867</span>
+                        <p><a href="adress:3517 W. Gray St. Utica, Pennsylvania 57867">3517 W. Gray St. Utica,<br>Pennsylvania 57867</a></p>
                     </li>
                 </ul>
             </div>
             <div class="footer-bottom">
                 <div class="copyright">
-                    <span>© 2024 Omall, Inc. Все права защищены</span>
+                    <span>&copy; 2024 Omall, Inc. Все права защищены</span>
                 </div>
                 <div class="">
-                    <a href="#"><img src="img/main-logo.png" alt=""></a>
+                    <a href="#"><img src="img/main-logo.png" alt="лого"></a>
                 </div>
             </div>
         </div>
