@@ -512,6 +512,9 @@ p {
     margin-right: 83px;
 }
 /*-----------------------section form---------------------*/
+.form {
+    justify-content: center;
+}
 .form_wrapper {
     background: #64D3C2;
     border-radius: 76px;
