@@ -1024,7 +1024,7 @@ p {
 
 @media (max-width: 765px) {
     .container {
-        max-width: 760px;
+        /* max-width: 760px; */
         padding: 0 20px;
     }
     .navigation_menu {
@@ -1160,7 +1160,6 @@ p {
 
 @media (max-width: 576px) { 
     .container {
-        max-width: 565px;
         padding: 0 15px;
     }
     /* main */
@@ -1303,7 +1302,6 @@ p {
 @media (max-width: 480px) {
     .container {
         padding: 0 5px;
-
     }
     /* main */
     .main-banner_wrapper {
@@ -1367,6 +1365,7 @@ p {
     .form_wrapper {
         padding: 33px 50px;
         /* margin: 0 2px; */
+        justify-content: center;
     }
 
     /* footer */
@@ -1400,7 +1399,6 @@ p {
 @media (max-width: 370px) {
     .container {
         padding: 0 2px;
-        max-width:310px;
     }
     h1 {
         font-size: 30px;
