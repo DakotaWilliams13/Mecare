@@ -270,6 +270,7 @@ p {
     height: 735px;
     border-radius: 16px;
     padding: 40px 45px;
+    position: relative;
 }
 
 .pricing_block1 {
@@ -315,15 +316,21 @@ p {
     min-width: 448px;
     min-height: 56px;
     border: none;
+    /* position: absolute;
+    bottom: 47px; */
+    /* display: block;
+    margin: 10px auto; */
     position: absolute;
     bottom: 47px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .btn1 {
     background-color: white;
     color: #0D1525;
     transition: background-color 0.3s ease,
-    color 0.3s ease;
+    color 0.3s ease
 }
 .btn2 {
     background-color: #5ABEAF;
@@ -1087,16 +1094,24 @@ p {
         top: 45px;
     }
     /* pricing */
-    .pricing_blocks {
-        justify-content: center;
-    }
-    .pricing_block__text {
-        font-size: 20px;
-    }
     .pricing_block1,
     .pricing_block2 {
         width: auto;
         height: auto;
+    }
+
+    .pricing_block__btn {
+        /* position: absolute;
+        bottom: 47px; */
+        /* display: block;
+        margin: 10px auto; */
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .pricing_block__list {
+        margin-bottom: 130px;
     }
     /* info */
     .info_blocks {
@@ -1232,7 +1247,14 @@ p {
         grid-row: 2/3;
     }
     .pricing_block__btn {
-        display: none;
+        /* border-radius: 32px;
+        font-size: 16px; */
+        min-width: 300px;
+        min-height: 56px;
+        /* position: absolute;
+        bottom: 47px;
+        left: 50%;
+        transform: translate(-50%, -50%); */
     }
 
     /* info */
@@ -1361,7 +1383,14 @@ p {
         padding: 20px 25px;
     }
     .pricing_block__btn {
-        display: none;
+        /* border-radius: 32px;
+        font-size: 16px; */
+        min-width: 300px;
+        min-height: 56px;
+        /* position: absolute;
+        bottom: 47px;
+        left: 50%;
+        transform: translate(-50%, -50%); */
     }
     
     /* form */
@@ -1470,9 +1499,10 @@ p {
     .pricing_blocks__header__title {
         font-size: 35px;
     }
-    /* .pricing_block__list {
-        width: 50%;
-    } */
+    .pricing_block__btn {
+        min-width: 250px;
+        min-height: 56px;
+    }
 
     /* info */
     .info_blocks {
