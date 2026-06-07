@@ -1387,6 +1387,7 @@ p {
     }
     .mini-banner__text {
         font-size: 16px;
+        max-width: 100%;
     }
     .mini-banner__icon-wrapper {
         /* width: 55px;
@@ -1489,16 +1490,26 @@ p {
         display: none;
     }
     .mini-banner__button {
-        bottom: 5%;
+        bottom: 2%;
         right: 15%;
         width: 70%;
         height: 35px;
     }
+    /* .pricing_block__btn {
+        min-width: 70%;
+        min-height: 35px;
+
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } */
     .mini-banner__title {
         font-size: 22px;
     }
     .mini-banner__text {
         font-size: 16px;
+        max-width: 100%;
     }
     .mini-banner__icon-wrapper {
         display: none;
@@ -1538,7 +1549,7 @@ p {
     .info_blocks {
         display: grid;
         grid-template-columns: 300px;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: 550px 300px 300px 570px;
         grid-gap: 20px;
     }
     .info_block1 {
