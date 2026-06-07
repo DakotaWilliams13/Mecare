@@ -231,9 +231,14 @@ p {
     display: flex;
     justify-content: center;
     
+    /* position: absolute;
+    bottom: 31px;
+    right: 88px; */
     position: absolute;
     bottom: 31px;
-    right: 88px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     transition: background-color 0.3s ease,
     color 0.3s ease;
 }
@@ -810,6 +815,24 @@ p {
         min-height: 400px; */
         /* min-width: 1190px; */
     }
+    .mini-banner__button {
+        /* width: 262px;
+        height: 48px;
+        border-radius: 30px;
+        background-color: #0D1525;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: large;
+        border: none;
+        align-items: center;
+        display: flex;
+        justify-content: center; */
+        
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
     /* info */
     .info_blocks {
         display: grid;
@@ -854,7 +877,7 @@ p {
     .main-banner_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; /*  столбец */
-        grid-template-rows: 300px 300px 300px; /* строка */
+        grid-template-rows: 300px 300px 315px; /* строка */
         gap: 10px;
         /* justify-content: center; */
     }
@@ -962,9 +985,13 @@ p {
         left: 40px;
     }
     .mini-banner__button {
-        bottom: 40px;
-        right: 30%;
-
+        width: 350px;
+        height: 48px;
+        
+        position: absolute;
+        bottom: 31px;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     .mini-banner__title {
         font-size: 30px;
@@ -1209,14 +1236,13 @@ p {
         grid-column: 1/2;
         grid-row: 4/5; 
     }
-    .big-banner__button {
-        bottom: 30px;
-        left: 40px;
-    }
     .mini-banner__button {
-        bottom: 40px;
-        right: 30%;
-
+        width: 290px;
+        height: 48px;
+        
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
     }
     .mini-banner__title {
         font-size: 30px;
@@ -1343,9 +1369,13 @@ p {
         background-position: 95% bottom, center 10%, left top;
         background-size: 50%, 97%;
     }
-    .big-banner__button {
-        bottom: 30px;
-        left: 35px;
+    .mini-banner__button {
+        width: 262px;
+        height: 48px;
+        
+        position: absolute;
+        bottom: 31px;
+        left: 50%;
     }
     .mini-banner__button {
         bottom: 20px;
